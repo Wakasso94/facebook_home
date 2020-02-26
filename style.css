@@ -1,0 +1,192 @@
+/*BismiLILLAH*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: linear-gradient(#fff,#e1e5f0);
+	overflow: hidden;
+
+}
+header{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 20px; 
+	flex-direction: row;
+	padding-right: 20px;
+	background-color: #3b5999;
+	border-bottom: 1px solid #495970;
+}
+
+.logo{
+	width: 35%;
+	float: left;
+	margin-left: 280px;
+	
+}
+.connecter{
+	display: flex;
+	width: 10%;
+	float: left;
+	padding-left: -70px;
+
+}
+.logo img{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-right: 80px;
+}
+.parti_header label{
+	color: #fff;
+}
+.adresse{
+	float: left;
+
+}
+.adresse label{
+	
+	color: #fff;
+}
+.adresse input[type="text"]{
+	height: 20px;
+	width: 150px;
+	border:1px solid #212f3a;
+	float: left;
+	margin-right: 80px;
+	margin-bottom: 0;
+}
+.password{
+	float: left;
+	margin-left: -50px;
+
+}
+.password label{
+	padding-bottom: 10px;
+	color: #fff;
+}
+.password a{
+	color: #87a3d2;
+	margin-bottom: 20px; 
+}
+.password input[type="password"]{
+	height: 20px;
+	width: 150px;
+	border:1px solid #212f3a;
+}
+.button_adresse{
+	float: left;
+	margin-left: 40%;
+	margin-bottom: 0%;
+}
+.password input[type="submit"]{
+	background: #5a7ca1;
+	border:1px solid #2c4679;
+	border-radius: 2px;
+	color: #fff;
+	height: 20px;
+	width: 50px;
+	margin-left: 180px;
+
+}
+.clearfix{
+	display: flex;
+	clear: both;
+	position: relative;
+	left: 20%;
+	font-size: 20px;
+}
+
+.create_account .free{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.create_account .h2{
+	font-size: 40px;
+}
+.account input[type="text"]{
+	
+	margin-bottom: 15px;
+	border-right: 5px;
+	padding: 10px;
+	border: 1px solid #bdc7d8;
+}
+.account input[type="password"]{
+	
+	margin-bottom: 15px;
+	border-right: 5px;
+	padding: 10px;
+	border: 1px solid #bdc7d8;
+}
+.account .mobile, .account .password{
+	width: 84% !important;
+}
+.account label{
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 15px;
+
+}
+.account a{
+	text-decoration: none;
+	color: #3677bc;
+}
+.account input[type="radio"]{
+	margin-top: 20%;
+	margin-bottom: 20px;
+}
+.account .by-clicking{
+	color: #77777a;
+	margin-top: 20px;
+	font-size: 15px;
+}
+.account input[type="submit"]{
+	padding: 8px 22px;
+	background: linear-gradient(#95d67c,#65a953);
+	border: 1px solid #3b6a22;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #fff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 200px;
+}
+@media screen and (max-width: 1400px){
+	.header{
+		height: 100%;
+		width: 60%;
+	}
+	.content{
+		height: 100%;
+		width: 60%;
+	}
+
+}
+@media screen and (max-width: 1000px){
+	.header{
+		height: 100%;
+		width: 60%;
+	}
+	.content{
+		height: 70%;
+		width: 40%;
+	}
+
+}
+@media screen and (max-width: 700px){
+	.header{
+		height: 100%;
+		width: 50%;
+	}
+	.content{
+		height: 100%;
+		width: 60%;
+	}
+
+}
+
+/*.icon{
+	width: 0px;
+	position: relative;
+	left: -2%;
+	padding: 20px;
