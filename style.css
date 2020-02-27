@@ -34,7 +34,11 @@ header{
 .logo img{
 	padding-top: 10px;
 	padding-bottom: 20px;
-	margin-right: 80px;
+	margin-left: 100px;
+}
+.w{
+	padding-top: 10px;
+	margin-right: -100px;
 }
 .parti_header label{
 	color: #fff;
@@ -91,7 +95,7 @@ header{
 .clearfix{
 	display: flex;
 	clear: both;
-	position: relative;
+	position: absolute;
 	left: 20%;
 	font-size: 20px;
 }
